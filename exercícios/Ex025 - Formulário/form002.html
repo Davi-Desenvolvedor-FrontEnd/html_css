@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulário 2</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Teste de Formulário</h1>
     <form action="cadastro.php" autocomplete="on" method="post">
-        <p>
-            <label for="id_usuario">Usuário: </label>
-            <input type="text" name="usuario" id="id_usuario" required minlength="5" maxlength="15" size="10" autocomplete="username">
-        </p>
-        <p>
-            <label for="id_senha">Senha: </label>
-            <input type="password" name="senha" id="id_senha" required minlength="8" maxlength="10" size="10" autocomplete="current-password">
-        </p>
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </p>
+      <p>
+        <label for="id_usuario">Usuário: </label>
+        <input
+          type="text"
+          name="usuario"
+          id="id_usuario"
+          required
+          minlength="5"
+          maxlength="15"
+          size="10"
+          autocomplete="username"
+          placeholder="Digite seu nome"
+        />
+      </p>
+      <p>
+        <label for="id_senha">Senha: </label>
+        <input
+          type="password"
+          name="senha"
+          id="id_senha"
+          required
+          minlength="8"
+          maxlength="10"
+          size="10"
+          autocomplete="current-password"
+          placeholder="Digite sua senha"
+        />
+      </p>
+      <p>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+      </p>
     </form>
-</body>
+  </body>
 </html>
