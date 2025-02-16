@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(56, 55, 55);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    margin-top: 20px;
+}
+
+p {
+    font: normal 800 1.7em "Arial", sans-serif;
+}
+
+a {
+    font: bold 1.3em "Arial";
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
