@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    height: 100%;
+}
+
+div.container {
+    border: 3px solid blue;
+    display: grid;
+    grid-template: repeat(3, 100px) / 1fr 2fr 1fr;
+    gap: 20px;
+    place-items: normal normal;
+    place-content: normal normal;
+    grid-auto-flow: row dense;
+    grid-auto-rows: auto;
+    grid-auto-columns: auto;
+}
+
+div.item {
+    border: 3px solid red;
+    padding: 10px;
+}
